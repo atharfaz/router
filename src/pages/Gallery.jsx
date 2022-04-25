@@ -125,11 +125,7 @@ class Gallery extends Component {
                                         required />
 
                                     <button className="btn btn-info btn-block" type="submit">
-                                        <input type="text" className="form-control my-2" placeholder="Pencarian"
-                                            value={this.state.keyword}
-                                            onChange={ev => this.setState({ keyword: ev.target.value })}
-                                            onKeyUp={ev => this.searching(ev)}
-                                        />
+
                                         Simpan
                                     </button>
                                 </form>
